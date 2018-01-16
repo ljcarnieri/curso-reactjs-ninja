@@ -6,8 +6,8 @@ import Title from './title';
 const App = React.createClass({
   render: function() {
     return (
-      <div>
-        <Title name='Leonardo Carnieri' />
+      <div className='container'>
+        <Title name='Leonardo' />
       </div>
     );
   },
