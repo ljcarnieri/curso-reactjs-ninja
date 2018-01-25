@@ -24,6 +24,10 @@ class App extends Component {
     console.log('componentDidMount app')
   }
 
+  componentDidUpdate (prevProps, prevState) {
+    console.log('componentDidUpdate app', this.props, prevProps)
+  }
+
   render () {
     console.log('render app')
     return (
